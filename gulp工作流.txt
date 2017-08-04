@@ -1,0 +1,20 @@
+1.命令行创建 npm配置文件夹
+  npm init
+2.添加一个gulp的依赖
+  npm install gulp --save-dev
+3.在项目根目录下添加一个gulpfile.js的文件，
+  这个是gulp的主文件，这个文件名是固定的
+4.在gulpfile中抽象我们需要做的任务
+
+安装
+自动监听
+npm install browser-sync --save-dev
+
+详细文档网站
+https://www.npmjs.com/package/ +名字
+
+在gulpfile中执行代码前需要先安装插件，代码如下
+
+npm install gulp-less gulp-concat gulp-uglify gulp-cssnano gulp-htmlmin --save-dev
+
+（注：gulp-less是编译less文件的安装包，gulp-uglify是JS混淆，gulp-cssnano是CSS压缩,gulp-htmlmin是html的压缩）
